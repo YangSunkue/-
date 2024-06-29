@@ -1,4 +1,4 @@
-# ~/myproject/.boj/config.yaml
+## ~/myproject/.boj/config.yaml
 general:
   selenium_browser: "chrome"        # required - firefox | chrome | edge
   default_filetype: "cpp"           # optional - default filetype for 'boj add'
