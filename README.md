@@ -6,7 +6,7 @@ https://github.com/xvzc/boj-cli
 1. 파이썬 설치 위치/Lib/site-packages 안에 boj 디렉터리가 생겼을 것이다. ( 내 경로 : ~/AppData/Local/Programs/Python/Python311/Lib/site-packages/boj )
 2. boj 디렉터리를 본 저장소에 있는 boj로 대체한다.
 3. .py , .cpp 파일 등 본인이 제출하고 싶은 소스코드가 있는 디렉터리로 이동 후, .boj/config.yaml 디렉터리와 파일을 만든다.
-4. boj init
+4. 소스코드 있는 디렉터리에서 boj init
 5. boj login ( 셀레니움 크롤링 브라우저에 백준 로그인 창이 뜬다. 로그인하면 ~/boj-cli/username 디렉터리에 암호화된 세션값과 키가 저장된다 )
 6. boj add 문제번호 -t py -f  ( 파이썬 기준, problems/문제번호 디렉터리 생성됨 )
 7. problems 디렉터리로 이동 후 "boj run 문제번호" 하면 테스트 케이스 실행됨 ( 제출되는 코드는 문제번호 디렉터리의 main.py 이다 )
