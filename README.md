@@ -15,3 +15,5 @@ https://github.com/xvzc/boj-cli
 
 config.yaml 파일은 명령어를 python3 $file 에서 py $file로 변경했다. 기존 python3 명령어는 왠지 모르게 출력값이 "Python" 으로 고정되었기 때문.
 기타 다른 언어를 사용하는 방법은 원본 깃허브 참고 바람.
+
+CLI 환경에서 사용할 것이라면 getToken.py 커밋 메시지 읽어보기
